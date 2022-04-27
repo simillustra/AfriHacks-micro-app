@@ -1,7 +1,7 @@
 <?php if ($_SESSION['H_USER_SESSION_POSITION'] == 5) { ?>
     <section class="content">
         <div class="login-logo">
-            <a href="#"><b> 3 Steps to access</b> Orange Credits Micro Loan</a>
+            <a href="#"><b> 3 Steps to access</b> ASFAs Micro Loan</a>
         </div><!-- /.login-logo -->
         <!-- Info boxes -->
         <div class="row">
@@ -414,7 +414,7 @@
                     paymentmodal.close(); // use this to close the modal immediately after payment.
                 },
                 customizations: {
-                    title: "ORANGE CREDIT",
+                    title: "ASFA",
                     description: "Account Funding",
                     logo: "https://assets.piedpiper.com/logo.png",
                 },

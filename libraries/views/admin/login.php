@@ -27,7 +27,7 @@
                         </div>
                         <div class="login-logo">
                             <a href="<?php echo H_CLIENT; ?>"><b>ASFA</b>LLC</a>
-                            <h3>Micro-lending <strong>Platform</strong></h3>
+                            <h3>AGRICULTURAL EXTENSION ADVISORY SERVICE<strong> PLATFORM</strong></h3>
                         </div><!-- /.login-logo -->
                         <div class="login-box-body">
                             <p class="login-box-msg"><?php echo LANG_ADMIN_LOGIN; ?></p>

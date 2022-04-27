@@ -26,7 +26,7 @@ if (!defined('VALID_DIR')) die('You are not allowed to execute this file directl
                 <h3 class="panel-title">
                     <i class="fa fa-reorder"></i>
                     <?php echo LANG_CREATE_NEW; ?>
-                    Orange Credit Micro Loan Request
+                    ASFA Micro Loan Request
                 </h3></div>
             <div class="panel-body">
 
@@ -36,7 +36,7 @@ if (!defined('VALID_DIR')) die('You are not allowed to execute this file directl
                     <label class="control-label" for="loan_type">Loan Type</label>
                     <select  name="loan_type" id="loan_type"
                              class="required form-control styler choz" onchange="SetCreditRecurrentCharge(this)">
-                        <option>SELECT ORANGE CREDIT LOAN TYPE</option>
+                        <option>SELECT ASFA LOAN TYPE</option>
                         <?php foreach ($credit_request_types as $credit) { ?>
                             <option value="<?php echo $credit->id; ?>" loancharge="<?php echo $credit->activation_charge ?>"
                                     loanminamount="<?php echo $credit->minimum_amount ?>"

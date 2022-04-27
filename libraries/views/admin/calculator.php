@@ -95,19 +95,19 @@ if (isset($_POST['submit'])) {
 <!--        <div><h3>Need Instant, Hassel free school fees loans? Signup today.</h3></div>-->
 <!--    </li>-->
 <!--    <li><span>Image 02</span>-->
-<!--        <div><h3>Pay school fees with orange credit and earn scholarship points.</h3></div>-->
+<!--        <div><h3>Pay school fees with ASFA and earn scholarship points.</h3></div>-->
 <!--    </li>-->
 <!--    <li><span>Image 03</span>-->
 <!--        <div><h3>Contribute for 3 months and get school fees loans in Advance.</h3></div>-->
 <!--    </li>-->
 <!--    <li><span>Image 04</span>-->
-<!--        <div><h3>Refer and earn 5 orange credit points per referral. T & C applies.</h3></div>-->
+<!--        <div><h3>Refer and earn 5 ASFA points per referral. T & C applies.</h3></div>-->
 <!--    </li>-->
 <!--    <li><span>Image 05</span>-->
 <!--        <div><h3>Promo: Signup today and get express school fees loans.</h3></div>-->
 <!--    </li>-->
 <!--    <li><span>Image 06</span>-->
-<!--        <div><h3>Orange credit card coming soon..</h3></div>-->
+<!--        <div><h3>ASFA card coming soon..</h3></div>-->
 <!--    </li>-->
 <!--</ul>-->
 <div id="showRoll" class="container">
@@ -115,7 +115,7 @@ if (isset($_POST['submit'])) {
         <div class="clr"></div>
     </div><!--/ Codrops top bar -->
     <header>
-        <h1 class="col-xs-0 hidden-xs">Welcome to <span>Orange Credit</span></h1>
+        <h1 class="col-xs-0 hidden-xs">Welcome to <span>ASFA</span></h1>
         <h2 class="col-xs-0 hidden-xs">...helping dreams come alive.</h2>
         <p class="codrops-demos col-xs-0 hidden-xs">
             <a href="<?php echo H_LOGIN; ?>">Home</a>
@@ -138,7 +138,7 @@ if (isset($_POST['submit'])) {
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Orange Credit</a>
+                    <a class="navbar-brand" href="#">ASFA</a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->

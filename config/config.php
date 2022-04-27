@@ -34,7 +34,7 @@ define('DB_NAME', $DATABASE_NAME);
 define('DB_PORT', $DATABASE_PORT);
 
 define('DB_TYPE', 'mysql');
-define('H_TITLE', 'ASFA MICRO LENDING');
+define('H_TITLE', 'ASFA AGRICULTURAL EXTENSION ADVISORY SERVICE');
 //PAYSTACK CONFIG
 define('STORE_STATUS', 'development');
 define('BUSINESS_PLAN_FEE', 500);

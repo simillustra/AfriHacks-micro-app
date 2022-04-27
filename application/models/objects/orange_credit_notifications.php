@@ -385,8 +385,8 @@ class orange_credit_notifications_model
         $captionInput = json_decode($params);
 
         $sms_message = "ORANGE-CREDIT SUPPORT\r\n";
-        $sms_message .= "Hello, You are now eligible to access a loan amount of N" . $captionInput->amount . "from OrangeCredit. Login or contact an Orange Credit agent near you.";
-        $email_message = "Dear " . $captionInput->fullname . ", you are now eligible to access a loan amount of N" . $captionInput->amount . " from OrangeCredit. Login or contact an Orange Credit agent near you.";
+        $sms_message .= "Hello, You are now eligible to access a loan amount of N" . $captionInput->amount . "from ASFA. Login or contact an ASFA agent near you.";
+        $email_message = "Dear " . $captionInput->fullname . ", you are now eligible to access a loan amount of N" . $captionInput->amount . " from ASFA. Login or contact an ASFA agent near you.";
 
         $status = "unsent";
         $date = date("Y-m-d H:i:s");

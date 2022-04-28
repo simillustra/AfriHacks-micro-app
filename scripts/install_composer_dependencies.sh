@@ -10,7 +10,7 @@ cd /var/www/html
 sudo \cp -rf siteConfig/asfa.ng.crt /var/opt/ssl/
 sudo \cp -rf siteConfig/asfa.ng.key /var/opt/ssl/
 sudo \cp -rf siteConfig/000-default.conf /etc/apache2/sites-available/
-sudo \cp -rf siteConfig/default-ssl.conf /etc/apache2/sites-enabled/
+sudo \cp -rf siteConfig/default-ssl.conf /etc/apache2/sites-available/
 sudo \cp -rf siteConfig/ssl-params.conf /etc/apache2/conf-available/
 
 curl -sS https://getcomposer.org/installer | php

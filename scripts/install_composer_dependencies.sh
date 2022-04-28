@@ -7,8 +7,19 @@ curl -sS https://getcomposer.org/installer -o /tmp/composer-setup.php
 sudo php /tmp/composer-setup.php --install-dir=/usr/local/bin --filename=composer
 
 cd /var/www/html
+#Updating Write permission
+sudo chown -R ubuntu /var/opt
+
+   if [ ! -d  /var/opt/ssl ]; then
+    sudo mkdir /var/opt/ssl
+    echo "SSL Directory Created"
+  fi
+
 sudo \cp -rf siteConfig/asfa.ng.crt /var/opt/ssl/
 sudo \cp -rf siteConfig/asfa.ng.key /var/opt/ssl/
+
+sudo chown -R root.root /var/opt
+
 sudo \cp -rf siteConfig/000-default.conf /etc/apache2/sites-available/
 sudo \cp -rf siteConfig/default-ssl.conf /etc/apache2/sites-available/
 sudo \cp -rf siteConfig/ssl-params.conf /etc/apache2/conf-available/

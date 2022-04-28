@@ -7,11 +7,11 @@ curl -sS https://getcomposer.org/installer -o /tmp/composer-setup.php
 sudo php /tmp/composer-setup.php --install-dir=/usr/local/bin --filename=composer
 
 cd /var/www/html
-sudo \cp siteConfig/asfa.ng.crt /var/opt/ssl/
-sudo \cp siteConfig/asfa.ng.key /var/opt/ssl/
-sudo \cp siteConfig/000-default.conf /etc/apache2/sites-available/
-sudo \cp siteConfig/default-ssl.conf /etc/apache2/sites-enabled/
-sudo \cp siteConfig/ssl-params.conf /etc/apache2/conf-available/
+sudo \cp -rf siteConfig/asfa.ng.crt /var/opt/ssl/
+sudo \cp -rf siteConfig/asfa.ng.key /var/opt/ssl/
+sudo \cp -rf siteConfig/000-default.conf /etc/apache2/sites-available/
+sudo \cp -rf siteConfig/default-ssl.conf /etc/apache2/sites-enabled/
+sudo \cp -rf siteConfig/ssl-params.conf /etc/apache2/conf-available/
 
 curl -sS https://getcomposer.org/installer | php
 php composer.phar install

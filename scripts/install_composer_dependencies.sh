@@ -13,6 +13,8 @@ sudo \cp -rf siteConfig/000-default.conf /etc/apache2/sites-available/
 sudo \cp -rf siteConfig/default-ssl.conf /etc/apache2/sites-available/
 sudo \cp -rf siteConfig/ssl-params.conf /etc/apache2/conf-available/
 
+sudo ln -s /etc/apache2/sites-available/default-ssl.conf /etc/apache2/sites-enabled/001-ssl.conf
+
 curl -sS https://getcomposer.org/installer | php
 php composer.phar install
 

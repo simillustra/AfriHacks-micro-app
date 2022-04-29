@@ -83,7 +83,7 @@
                             <div class="form-group col-xs-6 col-md-6 col-sm-6 col-lg-6">
                                 <label class="font-weight-bold">SURNAME <span class="text-danger">*</span></label>
                                 <input type="text" name="last_name" id="last_name"
-                                       value="<?php echo post('last_name') ?>" class="form-control form-control-lg styler"
+                                       value="<?php echo post('last_name') ; ?>" class="form-control form-control-lg styler"
                                        placeholder="Your Surname"
                                        data-required>
                             </div>

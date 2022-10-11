@@ -9,3 +9,10 @@ test/coverage
 .idea/
 vendor
 db/
+cronJobs
+config
+siteConfig
+scripts
+.env
+appspec.yml
+error_log
